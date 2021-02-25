@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+body{
+    width: 960px;
+    margin: auto;
+}
+
+/* Header Decoration */
+
+.logo{
+    margin-top: 20px;
+}
+.logoWriting{
+    float: right;
+    display:block;
+    margin-top: -24px;
+    margin-right: 749px;
+
+}
+
+.logoWriting h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    margin-top: 14px;
+}
+
+#theBestFood {
+    font-size: 10px;
+    margin-top: -29px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: grey;
+}
+
+.icons{
+    clear: both;
+    float: right;
+    margin-top: -42px;
+}
+
+.icons :nth-child(7){
+    padding-left: 15px;
+}
+
+hr{
+    width: 100%;
+    background: url(./img/hr-img.png);
+    border: 0px;
+    height: 10px;
+    margin-top: 16px;
+    
+}
+h1{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#date{
+    margin-top: -22px;
+    font-size: 9px;
+    margin-left: 11px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: grey;
+}
+
+#printer{
+    clear: both;
+    float: right;
+    margin-right: 59px;
+}
+
+
+#printer p {
+    float: right;
+    margin-top: 0px;
+    margin-left: 6px;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: grey;
+
+
+}
+
+.mainImage{
+    margin-top: 0px;
+}
+
+
+article p{
+  white-space: break-spaces;
+  font-family: 'Times New Roman', Times, serif;
+  fo
+}
+
+.text2{
+    margin-top: -60px;
+}
+
+.ingrediants{
+    font-family: 'Merriweather Sans', sans-serif;
+    background: url(./img/list-bg.png);
+    height: 200px;
+    
+
+}
+
+.ingrediants ul li {
+    list-style: none;
+    paddi
+}
+
+#rightUL{
+    display: block;
+    float : right;
+    margin-right : 75px;
+    margin-top : -132px;
+}
+
+
+#leftUL{
+    padding-top: 39px;
+}
+
+
+#lasth3{
+    clear: both;
+    float: right;
+    margin-right: 720px;
+    margin-top: -32px;
+}
+
+#lastImg{
+    margin-top: -32px;
+}

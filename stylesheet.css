@@ -43,7 +43,7 @@ body{
     padding-left: 15px;
 }
 
-hr{
+.customhr {
     width: 100%;
     background: url(./img/hr-img.png);
     border: 0px;
@@ -87,8 +87,8 @@ h1{
 
 article p{
   white-space: break-spaces;
-  font-family: 'Times New Roman', Times, serif;
-  fo
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 .text2{
@@ -105,12 +105,12 @@ article p{
 
 .ingrediants ul li {
     list-style: none;
-    paddi
+    
 }
 
 #rightUL{
     display: block;
-    float : right;
+    float: right;
     margin-right : 75px;
     margin-top : -132px;
 }
@@ -130,4 +130,48 @@ article p{
 
 #lastImg{
     margin-top: -32px;
+}
+
+.lastSection{
+    margin-top: 65px;
+    padding-bottom: 70px;
+
+}
+
+.lastSection p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#button {
+    float: right;
+    background-color: brown;
+    color: white;
+    height: 45px;
+    margin-top: -57px;
+    margin-right: 220px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+#righthr{
+    width: 47.5%;
+    float: right;
+    margin-right: 0px;
+    color: lightslategray;
+    margin-top: -10px;
+}
+#lefthr{
+    width: 47.5%;
+    margin-left: 0px ;
+    color: lightslategray;
+    margin-top: -17px;
+}
+footer img{
+    margin-left: 464px;
+}
+
+footer p{
+    color: lightslategray;
+    text-align: center;
+    margin-top: 30px;
 }
